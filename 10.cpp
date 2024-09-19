@@ -30,7 +30,12 @@ public:
     }
 };
 
-// Simple approach
+/*
+  Simple approach using Euclidian Algorithm 
+  Time: O(log(min(a,b)))
+  Space: O(1) 
+*/
+
 class Solution
 {
 public:
